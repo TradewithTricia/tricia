@@ -16,16 +16,16 @@ $projectPhoneNumber="YOUR PHONE NUMBER";
 
 
 // Twilio API credentials
-$accountSid = "YOUR ACCOUNT SID";
-$authToken = "YOUR ACCOUNT TOKEN"; //
-$twilioPhoneNumber = "YOUR TWILIO PHONE NUMBER";
-$siteURL="YOUR SITE URL";
+$accountSid = "ACc511dc2d970bd783da22224e36dd865f";
+$authToken = "09f05904364b14b2095ef13369f1bc35"; //
+$twilioPhoneNumber = "+15038500086";
+$siteURL="https://demo.twilio.com/welcome/sms/reply";
 
 
 // Slack Webhook integration
-$slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
-$slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
+$slackWebHookURL="https://hooks.slack.com/services/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";
+$slackRoom = "#tricia";
+$slackBotName = "Tricia"; //THE NAME OF YOUR BOT
 $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
