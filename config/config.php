@@ -19,7 +19,7 @@ $projectPhoneNumber="8016082495";
 $accountSid = "ACc511dc2d970bd783da22224e36dd865f";
 $authToken = "09f05904364b14b2095ef13369f1bc35"; //
 $twilioPhoneNumber = "+15038500086";
-$siteURL="https://demo.twilio.com/welcome/sms/reply";
+$siteURL="https://twilio.com";
 
 
 // Slack Webhook integration
