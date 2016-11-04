@@ -19,7 +19,7 @@ $projectPhoneNumber="8016082495";
 $accountSid = "ACc511dc2d970bd783da22224e36dd865f";
 $authToken = "09f05904364b14b2095ef13369f1bc35"; //
 $twilioPhoneNumber = "+15038500086";
-$siteURL="";
+$siteURL="https://www.twilio.com/console/sms/services/MG56f38060876cf34da028b65e393c9f08";
 
 
 // Slack Webhook integration
@@ -30,7 +30,7 @@ $slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_
 
 
 // Database Stuff
-$dbHost = "https://www.cleardb.com/database/details?id=F79BD32D9524A3575A43D8D6C5B06F32#";
+$dbHost ="us-cdbr-iron-east-04.cleardb.net";
 $dbName = "heroku_ab4c029bd2aed8f";
 $dbUserName = "b4f7a11c672151";
 $dbPassword = "971f381e";
