@@ -1,11 +1,11 @@
 <?php
 // installDB.php
 
-include('config.php');
+include('config/config.php');
 
 
 // Create DB table if it doesn't exist
-if(mysqli_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'"))==0){
+if(mysql_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'"))==0){
     $createDbTable="DROP TABLE IF EXISTS `".$dbTable."`;
     CREATE TABLE `".$dbTable."` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
