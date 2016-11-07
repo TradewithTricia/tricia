@@ -5,8 +5,9 @@ include('config/config.php');
 
 
 // Create DB table if it doesn't exist
-if(mysqli_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'"))==0){
-    $createDbTable="DROP TABLE IF EXISTS `".$dbTable."`;
+//if(mysqli_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'"))==0){
+    //$createDbTable=
+    "DROP TABLE IF EXISTS `".$dbTable."`;
     CREATE TABLE `".$dbTable."` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `phonenumber` varchar(50) DEFAULT NULL,
@@ -17,6 +18,6 @@ if(mysqli_num_rows(mysqli_query($dbConnection, "SHOW TABLES LIKE '".$dbTable."'"
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;";
     mysqli_query($dbConnection, $createDbTable);
-}
+//}
 
 ?>
