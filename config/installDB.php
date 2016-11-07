@@ -1,7 +1,7 @@
 <?php
 // installDB.php
 
-include('config/config.php');
+include('config.php');
 
 
 // Create DB table if it doesn't exist
